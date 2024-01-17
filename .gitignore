@@ -1,36 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+/backend/.vs/backend/FileContentIndex/433f06ef-3a24-4142-a66d-e448823bd0bf.vsidx
+/backend/.vs/backend/FileContentIndex/e2988317-ddef-4aa4-9617-6e5955c96ee6.vsidx
+/backend/.vs/backend/FileContentIndex/469266ca-d44f-4046-a58c-ccf8e35c0418.vsidx
+/backend/.vs/backend/FileContentIndex/57fb6750-a507-475e-b038-ea90560b4389.vsidx
+/backend/.vs/backend/FileContentIndex
