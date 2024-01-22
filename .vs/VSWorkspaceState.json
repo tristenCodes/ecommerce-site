@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\backend",
+    "\\frontend"
   ],
-  "SelectedNode": "\\frontend",
+  "SelectedNode": "\\backend\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
