@@ -23,7 +23,7 @@ const MyComponent = () => {
 
 
   return (
-    <Button variant="contained" onClick={submitRequest}>Get Weather Data NewNEw</Button>
+    <Button variant="contained" onClick={submitRequest}>Get Request</Button>
   );
 
 
