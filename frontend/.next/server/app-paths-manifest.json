@@ -1,0 +1,5 @@
+{
+  "/cart/page": "app/cart/page.js",
+  "/page": "app/page.js",
+  "/testroute/page": "app/testroute/page.js"
+}
