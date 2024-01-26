@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Image from 'next/image';
 import mallard from '../../public/images/mallard.png';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Button from '@mui/material/Button';
 
 const theme = createTheme({
     palette: {
@@ -48,8 +49,9 @@ const NavBar : React.FC<MyComponentProps>  = () => {
             
                 <Box sx={ { background : 'background.paper', borderBottom: 1, borderColor: 'divider', display: 'flex' } } >
                     <NavBarTabs  />
-
+                    <Button href ="/cart"variant="outlined">
                     <ShoppingCartIcon />
+                    </Button>
                 </Box>
             </Box>
         </ThemeProvider>
