@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\backend.csproj": {}
+    "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\backend.csproj": {
+    "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\obj\\",
+        "outputPath": "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

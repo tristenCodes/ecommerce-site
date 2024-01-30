@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows",
-    "\\frontend\\src",
-    "\\frontend\\src\\app",
-    "\\frontend\\src\\app\\testroute",
-    "\\frontend\\src\\components"
+    "\\backend",
+    "\\backend\\Controllers",
+    "\\backend\\Data",
+    "\\backend\\Migrations",
+    "\\backend\\obj"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\backend\\Test.cs",
   "PreviewInSolutionExplorer": false
 }
