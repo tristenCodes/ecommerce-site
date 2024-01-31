@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1q559p5E1EXu1h6iZPh5C8dFKPu06SP9EFCaokRKr/yX4MsyCN52Reu7shO8bm+QpLDrw91M+UtqXzn4nA6AQ==",
+  "dgSpecHash": "dmJIa/erOE9gbSap3CldHrUr7sgQtDzWEcTjZPoNKUOZwy15mf68MGTeiK8LEU1LhyjYPe4QQiBXsKmkqnnGbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dylan\\source\\repos\\ecommerce-site\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\dylan\\Source\\Repos\\ecommerce-site\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dylan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

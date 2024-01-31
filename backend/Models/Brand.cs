@@ -1,19 +1,11 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
+namespace backend.Models;
 
-namespace backend.Models
+public partial class Brand
 {
+    public int Id { get; set; }
 
-    public class Brand
-    {
-        /*id is a special property that indicates that
-            id is to be the primary key in the generated
-        table
-
-        */
-        public int Id { get; set; }
-        public string? Name { get; set; } 
-
-    }
+    public string Name { get; set; } = null!;
 }
