@@ -42,5 +42,6 @@ next-env.d.ts
 /backend/.vs/backend/FileContentIndex
 /backend/obj/Debug/net8.0/backend.AssemblyInfoInputs.cache
 /backend/obj/Debug/net8.0/backend.AssemblyInfo.cs
-
+/backend/obj/
+/backend/bin/
 /.vs
