@@ -30,12 +30,27 @@ const MyComponent = () => {
         } 
       };
 
+      const submitRequestID = async () => {
+     
+        console.log('Fire the get id request to backend yaya!');
+        try {
+          const id = 7
+          const response = await fetch('http://localhost:5069/Test/Extra/${id}'); 
+          
+          const result = await response.json();
+          console.log('the resultant data is', result)
+
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        } 
+      };
+
       const submitRequestBrands = async () => {
         // Add your logic here
         console.log('Fire the get request for brands to backend immediately!');
         try {
           // Assuming your backend is running on http://localhost:your_backend_port
-          const response = await fetch('http://localhost:5069/Test'); // Configure the address to be where asp.net backend is hosted
+          const response = await fetch('http://localhost:5069/Test/7'); // Configure the address to be where asp.net backend is hosted
           //u gotta start the backend and have it on to successfully get the data
           const result = await response.json();
           console.log('the resultant data is', result)
@@ -53,6 +68,7 @@ const MyComponent = () => {
     <Button variant="contained" onClick={submitRequest}>Get Request</Button>
 
     <Button variant="contained" onClick={submitRequestBrands}>Get Brands</Button>
+    <Button variant="contained" onClick={submitRequestID}>Get ID new req test</Button>
     <Box>
     <div>
       <h2 className="text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">Brands</h2>

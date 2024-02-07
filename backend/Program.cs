@@ -86,6 +86,7 @@ app.UseAuthorization();
 app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());  //This enables CORS for everywhere I think, good for us, bad for big project
 
 
-app.MapControllers();
+app.MapControllers(); //Map attribute-routed controllers
+
 
 app.Run();
