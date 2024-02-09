@@ -21,31 +21,33 @@ namespace backend.Controllers
 
 
 
- 
-
-        
-
-        
-
-        [HttpGet(Name = "GetTest")]
-        public IEnumerable<Brand> Get()
+        /*
+        [Route("Test/Extra/{id?}")]
+        public IActionResult ReturnData(int id )
         {
+            Console.WriteLine($"received id ${id}");
+            return (IActionResult)ControllerContext.RouteData;
+        }
+        */
+
+
+
+        [HttpGet("{id}")]
+        public IEnumerable<Brand> Get(int id)
+        {
+            //was IEnumerable<Brand>
+            Console.WriteLine($"Received id with value {id}");
+
             IEnumerable<Brand> b = _context.Brands.ToArray();
-            
+           // Console.WriteLine("received name is " + Name);
             foreach(var foo in b)
             {
-                Console.WriteLine("test " + foo);
+                Console.WriteLine("test " + foo.ToString());
             }
 
             return b;
             
-            /*  return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray(); */
+           
         }
     }
 }

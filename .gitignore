@@ -45,3 +45,4 @@ next-env.d.ts
 /backend/obj/
 /backend/bin/
 /.vs
+.vs/

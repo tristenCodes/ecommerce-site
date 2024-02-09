@@ -9,6 +9,8 @@ import background from '../../../public/images/graysquare.png';
 import Slider from '@mui/material/Slider';
 import { useEffect, useState } from "react";
 import AddToCartButton from "./AddToCartButton";
+import ProductPanel from "../product/ProductPanel";
+import { product } from "../../types/types"
 
 const CartPanel = () => {
 
@@ -20,7 +22,32 @@ const CartPanel = () => {
 
     const clicky = () => {
         console.log("hehe clicky got a click clik")
+        //need to get array of relevant products from backend, use dummy data for now
+        // idea - testing mode, boolean available through useContext that deploys alternate components, wrap every component which conditionally
+        //renders based on default for default mode or testing component with test data for test mode
+
+
     }
+
+    const testMode : boolean = true;
+
+    const productsTestArray : product[] = [
+        {
+            id : 3,
+            name : "gucci flip flop",
+            src : "https://i.imgur.com/aQ71rWv.png"
+        },
+        {
+            id : 4,
+            name : "gucci flip flop again",
+            src : "https://i.imgur.com/aQ71rWv.png"
+        },
+        {
+            id : 5,
+            name : "gucci flip flop once mehr",
+            src : "https://i.imgur.com/aQ71rWv.png"
+        },
+    ]
 
 
     return(
@@ -37,7 +64,7 @@ const CartPanel = () => {
             <AddToCartButton onClick={clicky} label = "Press teh buton "  className = "p-5 bg-gradient-to-r from-cyan-500 to-blue-500" />
            
            
-            {/* Other components and content */}
+            
 
                     <Slider
                     defaultValue={30}
@@ -46,6 +73,8 @@ const CartPanel = () => {
                         color: 'success.main',
                     }}
                         />
+
+            <ProductPanel propArray={testMode ? productsTestArray : []} />
 
             </Container>
         
