@@ -25,7 +25,7 @@ const NavBarTabs = () => {
                 aria-label="basic tabs example"
             >    
                 <Tab value="one" label="New Releases" />
-                <Tab value="two" label={<Link href="/testroute">Today's Deal</Link>} />
+                <Tab value="two" label={<Link href="/shop">Today's Deal</Link>} />
                 <Tab value="three" label="Best Sellers" />
             
             </Tabs>

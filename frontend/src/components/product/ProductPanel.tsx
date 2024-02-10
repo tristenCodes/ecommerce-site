@@ -2,6 +2,7 @@ import React from 'react';
 import ProductItem from './ProductItem';
 
 import { product } from '../../types/types'
+import ProductItemPanel from './ProductItemPanel';
 
 interface properties {
     propArray : product[],
@@ -16,7 +17,7 @@ return (
         
 
         <ul className="flex"> 
-            {propArray.map(item => ( <ProductItem key ={item.id} id={item.id} src = {item.src } name = {item.name} />))}
+            {propArray && propArray.map(item => ( <ProductItemPanel key ={item.id} product = {item} />))}
         </ul>
 
 
