@@ -1,23 +1,20 @@
 import React from 'react';
 import ProductItem from './ProductItem';
 
-import { product } from '../../types/types'
+import { Product } from '../../types/types'
 import ProductItemPanel from './ProductItemPanel';
 
-interface properties {
-    propArray : product[],
-    
-};
 
-const ProductPanel = ({propArray} : properties) => {
+
+const ProductPanel = ({propArray} : { propArray: Product[]}) => {
 
 return (
     <>
         <h1> gucci flip flop</h1>
         
 
-        <ul className="flex"> 
-            {propArray && propArray.map(item => ( <ProductItemPanel key ={item.id} product = {item} />))}
+        <ul className="flex bg-slate-900"> 
+            {propArray && propArray.map(item => ( <ProductItemPanel  product = {item} />))}
         </ul>
 
 

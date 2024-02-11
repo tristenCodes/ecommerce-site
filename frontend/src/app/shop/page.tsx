@@ -7,21 +7,15 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import { useEffect } from 'react';
 import ProductPanel from '@/components/product/ProductPanel';
-import { product } from '@/types/types';
+import { Product } from '@/types/types';
 export default function Home() {
 
   //idea - have dummy data accessible globally through useContext
   //eventually get data from database, dispatch to backend dynamic routing next.js
   
-  /*
-    export interface product {
-    id : number,
-    name : string
-    src : string
-}
-  */
+
   
-  const dummyData : product[] = [
+  const dummyData : Product[] = [
     {
       id: 1,
       name : "gucci",

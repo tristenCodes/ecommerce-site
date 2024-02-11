@@ -1,7 +1,7 @@
 
 //Declare interface for representation of Product
 
-export interface product {
+export type Product = {
     id : number,
     name : string
     src : string

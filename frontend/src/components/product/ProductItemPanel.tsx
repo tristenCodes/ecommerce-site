@@ -1,12 +1,12 @@
 import React from 'react';
-import { product } from '@/types/types';
+import { Product } from '@/types/types';
 import ProductItem from './ProductItem';
 
 
-const ProductItemPanel = ({key : number , product : product}) => {
+const ProductItemPanel = ( {product }:  { product : Product}) => {
     return(
-        <div className = "bg-slate-800">
-            <ProductItem key={key} product={product}  />
+        <div className = "bg-slate-800 size-40">
+            <ProductItem id={product.id} src={product.src} name={product.name}  />
         </div>
     );
 };
