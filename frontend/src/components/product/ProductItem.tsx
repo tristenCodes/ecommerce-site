@@ -1,14 +1,14 @@
 import React from 'react';
-import { product } from '../../types/types'
+import { Product } from '../../types/types'
 
 
 
 
-const ProductItem = ({id, src, name}: product) => {
+const ProductItem = ({id, src, name}: Product) => {
 
     return (
         
-        <li key ={id}> {name} is  <img src={src} alt= {name} /> </li>
+        <li  className = "border-2 border-rose-500 object-fill  size-40" key ={id}> {name} is  <img className = "object-fill" src={src} alt= {name} /> </li>
     
     );
 }
