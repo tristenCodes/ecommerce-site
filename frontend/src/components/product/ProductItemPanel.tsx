@@ -5,7 +5,7 @@ import ProductItem from './ProductItem';
 
 const ProductItemPanel = ( {product }:  { product : Product}) => {
     return(
-        <div className = "bg-slate-800 size-40">
+        <div className = " flex-shrink-0 bg-slate-800   m-2">
             <ProductItem id={product.id} src={product.src} name={product.name}  />
         </div>
     );

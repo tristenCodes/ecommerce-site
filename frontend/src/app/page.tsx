@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import NavBar from '@/components/NavBar'
+import Background from '@/components/general/Background'
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex relative min-h-screen flex-col items-center justify-between p-24">
+      <Background />
       <NavBar />
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
@@ -23,6 +25,7 @@ export default function Home() {
         </a>
 
       </div>
+      
     </main>
 
   )
