@@ -197,20 +197,24 @@ export default function Home() {
       src : "https://i.imgur.com/nAodgwUb.jpg"
     },
   ];
+
+
   useEffect( () => {
     console.log("use effect called in testroute page");
 
   },[]);
+
+
   return (
     <>
     <Background />
-    <Container className="relative" >
+    <div className=" relative w-full h-full flex flex-col justify-center items-center">
         
         <GetRequestButton />
 
         <ProductPanel propArray = {dummyData} />
 
-    </Container>
+    </div>
     
     </>
       
