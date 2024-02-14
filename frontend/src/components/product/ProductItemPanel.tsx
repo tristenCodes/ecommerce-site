@@ -5,9 +5,12 @@ import ProductItem from './ProductItem';
 
 const ProductItemPanel = ( {product }:  { product : Product}) => {
     return(
-        <div className = "bg-slate-800 size-40">
+        
+       //this component might be redundant, oopsie
+        <div className = " relative  h-[37rem]  shadow-md p-1 ">
             <ProductItem id={product.id} src={product.src} name={product.name}  />
         </div>
+        
     );
 };
 

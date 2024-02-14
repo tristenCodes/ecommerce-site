@@ -35,27 +35,27 @@ const theme = createTheme({
 const NavBar : React.FC<MyComponentProps>  = () => {
 
     return (
-        <>
+        <div className= "relative ">
         <ThemeProvider theme={theme}>
-            <Box sx={{  display : ''}} > 
-                
-               <Box sx={ { background : 'background.paper', borderBottom: 1, borderColor: 'divider', display: 'flex' } } >
+            <Box  > 
+                <h1 className = " border-solid border-2 border-sky-500"> TESTTESTSTTE </h1>
+
+                <Box sx={ { background : 'background.paper', borderBottom: 1, borderColor: 'divider', display: 'flex' } } >
                     <Typography variant="h3" gutterBottom>
-                        Mallard Market
+                        Duck River Clothing Depot
                     </Typography>
-                    <Image src="/images/mallard.png" alt="Description of the image" width={80} 
-        height={80} />
+                    <Image src="/images/mallard.png" alt="Description of the image" width={80} height={80} />
                 </Box>
             
-                <Box sx={ { background : 'background.paper', borderBottom: 1, borderColor: 'divider', display: 'flex' } } >
+                <Box sx={ { background : 'background.paper', border: 1, borderColor: 'divider', display: 'flex' } } >
                     <NavBarTabs  />
                     <Button href ="/cart"variant="outlined">
                     <ShoppingCartIcon />
-                    </Button>
+                  </Button>
                 </Box>
             </Box>
         </ThemeProvider>
-        </>
+        </div>
 
     );
 }

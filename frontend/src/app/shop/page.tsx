@@ -36,21 +36,185 @@ export default function Home() {
       name : "raybands shirt",
       src : "https://i.imgur.com/nAodgwUb.jpg"
     },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
+    {
+      id: 1,
+      name : "gucci",
+      src : "https://i.imgur.com/Nil58vl.jpeg"
+    },
+    {
+      id: 2,
+      name : "prada bag",
+      src : "https://i.imgur.com/MeZMP3L.jpeg"
+    },
+    {
+      id: 3,
+      name : "bungus hat",
+      src : "https://i.imgur.com/B3zyYFhb.jpg"
+    },
+    {
+      id: 4,
+      name : "raybands shirt",
+      src : "https://i.imgur.com/nAodgwUb.jpg"
+    },
   ];
+
+
   useEffect( () => {
     console.log("use effect called in testroute page");
 
   },[]);
+
+
   return (
     <>
     <Background />
-    <Container className="relative" maxWidth="sm">
+    <div className=" relative w-full h-full flex flex-col justify-center items-center">
         
         <GetRequestButton />
 
         <ProductPanel propArray = {dummyData} />
 
-    </Container>
+    </div>
     
     </>
       

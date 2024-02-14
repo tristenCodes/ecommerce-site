@@ -3,7 +3,7 @@ import React from 'react';
 
 const Background = () => {
     return (
-        <div className ="absolute h-screen w-screen bg-slate-900"  >
+        <div className ="z-0 fixed top-0 left-0  h-screen w-screen bg-gradient-to-r from-slate-300 to-gray-300"  >
 
         </div>
     )

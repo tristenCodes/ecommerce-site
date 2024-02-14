@@ -9,16 +9,20 @@ import ProductItemPanel from './ProductItemPanel';
 const ProductPanel = ({propArray} : { propArray: Product[]}) => {
 
 return (
-    <>
-        <h1> gucci flip flop</h1>
+  
         
+      
 
-        <ul className="flex bg-slate-900"> 
+      
+        <ul className="relative grid grid-cols-3 grid-rows-3  
+                        p-5 m-4 w-4/6  bg-gray-200 m-3 
+                        "> 
+
             {propArray && propArray.map(item => ( <ProductItemPanel  product = {item} />))}
         </ul>
-
-
-    </>
+        
+    
+    
 );
 
 };
