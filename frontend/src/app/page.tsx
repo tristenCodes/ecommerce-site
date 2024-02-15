@@ -1,11 +1,15 @@
 import Image from 'next/image'
 import NavBar from '@/components/NavBar'
 import Background from '@/components/general/Background'
+import SplashPanel from '@/components/SplashPanel'
+
 export default function Home() {
   return (
-    <main className="flex relative min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex relative min-h-screen w-full flex-col items-center justify-start ">
       <Background />
       <NavBar />
+
+      <SplashPanel />
     </main>
 
   )

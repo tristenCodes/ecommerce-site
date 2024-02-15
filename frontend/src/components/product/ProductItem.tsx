@@ -1,13 +1,27 @@
+'use client';
 import React from 'react';
 import { Product } from '../../types/types'
+import { useRouter, usePathname } from 'next/navigation';
 
 import Box from '@mui/material/Box';
 
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-const ProductItem = ({id, src, name}: Product) => {
 
+
+const ProductItem = ({id, src, name}: Product) => {
+    const router = useRouter();
+
+    const s  = usePathname();
     const handleClick = () => {
       console.log("hook in Next.js dynamic routing functionality here");
+      
+      console.log('current path is ', s);
+      console.log('eventually need to get brand name associated with a given entry, db interaction or interaction with a cache which stores that data');
+
+      const newRoute = s.concat(`/${id}`)
+      router.push(newRoute);
+
+
     }
 
     return (

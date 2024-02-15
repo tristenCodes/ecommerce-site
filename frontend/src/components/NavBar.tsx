@@ -9,6 +9,7 @@ import Image from 'next/image';
 import mallard from '../../public/images/mallard.png';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
+import LogoHeader from "./general/LogoHeader";
 
 const theme = createTheme({
     palette: {
@@ -37,15 +38,10 @@ const NavBar : React.FC<MyComponentProps>  = () => {
     return (
         <div className= "relative ">
         <ThemeProvider theme={theme}>
-            <Box  > 
-                <h1 className = " border-solid border-2 border-sky-500"> TESTTESTSTTE </h1>
+          
+              
 
-                <Box sx={ { background : 'background.paper', borderBottom: 1, borderColor: 'divider', display: 'flex' } } >
-                    <Typography variant="h3" gutterBottom>
-                        Duck River Clothing Depot
-                    </Typography>
-                    <Image src="/images/mallard.png" alt="Description of the image" width={80} height={80} />
-                </Box>
+                <LogoHeader />
             
                 <Box sx={ { background : 'background.paper', border: 1, borderColor: 'divider', display: 'flex' } } >
                     <NavBarTabs  />
@@ -53,7 +49,7 @@ const NavBar : React.FC<MyComponentProps>  = () => {
                     <ShoppingCartIcon />
                   </Button>
                 </Box>
-            </Box>
+            
         </ThemeProvider>
         </div>
 
