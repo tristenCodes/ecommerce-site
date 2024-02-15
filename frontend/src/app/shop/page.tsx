@@ -8,6 +8,9 @@ import Box from '@mui/material/Box';
 import { useEffect } from 'react';
 import ProductPanel from '@/components/product/ProductPanel';
 import { Product } from '@/types/types';
+import LogoHeader from '@/components/general/LogoHeader';
+import FilterMenu from '@/components/menus/FilterMenu';
+
 export default function Home() {
 
   //idea - have dummy data accessible globally through useContext
@@ -23,7 +26,7 @@ export default function Home() {
     },
     {
       id: 2,
-      name : "prada bag",
+      name : "prada-bag",
       src : "https://i.imgur.com/MeZMP3L.jpeg"
     },
     {
@@ -200,21 +203,23 @@ export default function Home() {
 
 
   useEffect( () => {
-    console.log("use effect called in testroute page");
+    console.log("use effect called in testroute page, establish connection to db here potentially not sure yet");
 
   },[]);
 
 
   return (
     <>
-    <Background />
-    <div className=" relative w-full h-full flex flex-col justify-center items-center">
-        
-        <GetRequestButton />
+      <Background />
 
+      <div className=" relative w-full h-full flex flex-col justify-center items-center">
+        <LogoHeader />
+        <GetRequestButton />
+        <FilterMenu />
+        
         <ProductPanel propArray = {dummyData} />
 
-    </div>
+      </div>
     
     </>
       

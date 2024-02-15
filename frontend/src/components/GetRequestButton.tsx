@@ -10,7 +10,7 @@ interface Brand {
   id : number;
   name : string;
 }
-// Define the component using the FC (Functional Component) type
+
 const MyComponent = () => {
   
     const [brands, setBrands] = useState([]);
@@ -66,27 +66,20 @@ const MyComponent = () => {
   return (
     <>
     <div className="flex">
-    <Button variant="contained" onClick={submitRequest}>Get Request</Button>
-
-    <Button variant="contained" onClick={submitRequestBrands}>Get Brands</Button>
-    <Button variant="contained" onClick={submitRequestID}>Get ID new req test</Button>
-    <Box>
-    
-
-    </Box>
+        <Button variant="contained" onClick={submitRequest}>Get Request</Button>
+        <Button variant="contained" onClick={submitRequestBrands}>Get Brands</Button>
+        <Button variant="contained" onClick={submitRequestID}>Get ID new req test</Button>   
     </div>
+
     <div>
-    <h2 className="
-    relative
-    
-    text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">Brands</h2>
-    <ul className='text-xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
-      {brands.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ul>
-  </div>
-  </>
+      <h2 className="relative text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">Brands</h2>
+      <ul className='text-xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
+        {brands.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
+    </>
   );
 
 

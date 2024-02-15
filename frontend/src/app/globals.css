@@ -29,6 +29,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, 
@@ -53,3 +55,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* trying to get hover z index to work */
+.hover\:z-10:hover {
+	z-index: 10;
+  }
+
+  .hover\:productpanel:hover {
+	/*hacky solution but it work, i will fix in future i promise*/
+	background-color: #dee0e4;
+  }
