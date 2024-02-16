@@ -4,5 +4,10 @@
 export type Product = {
     id : number,
     name : string
-    src : string
+    price : number,
+    description : string
+}
+
+export interface ProductProp {
+    product : Product
 }
