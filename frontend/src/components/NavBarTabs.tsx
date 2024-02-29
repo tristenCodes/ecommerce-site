@@ -26,7 +26,7 @@ const NavBarTabs = () => {
             >    
                 <Tab value="one" label="New Releases" />
                 <Link href="/shop"><Tab value="two" label="Shop" /> </Link>
-                <Tab value="three" label="About Us" />
+                <Link href="/about-us"><Tab value="three" label="About Us" /> </Link>
             
             </Tabs>
         

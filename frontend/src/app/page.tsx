@@ -2,6 +2,7 @@ import Image from 'next/image'
 import NavBar from '@/components/NavBar'
 import Background from '@/components/general/Background'
 import SplashPanel from '@/components/SplashPanel'
+import { useContext } from 'react';
 
 export default function Home() {
   return (

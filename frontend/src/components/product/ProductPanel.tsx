@@ -18,7 +18,7 @@ return (
                         p-5 m-4 w-4/6  bg-gray-200 m-3 z-0
                         "> 
 
-            {propArray && propArray.map(product => ( <ProductItem id={product.id} src={product.src} name={product.name} />))}
+            {propArray && propArray.map(product => ( <ProductItem product={product} />))}
         </ul>
         
     

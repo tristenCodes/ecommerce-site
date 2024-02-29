@@ -22,183 +22,32 @@ export default function Home() {
     {
       id: 1,
       name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
+      price : 23.23,
+      description : "epic!"
+      
     },
     {
       id: 2,
-      name : "prada-bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
+      name : "offbranch guuci",
+      price : 3333.23,
+      description : "epicdddddd!"
+      
     },
     {
       id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
+      name : "SHIBUYA OFFICIAL ",
+      price : 55.23,
+      description : "epic woaoaoao!"
+      
     },
     {
       id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
+      name : "super duck",
+      price : 2223.23,
+      description : "epic, gotta buy it wowaaaa!"
+      
     },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
-    {
-      id: 1,
-      name : "gucci",
-      src : "https://i.imgur.com/Nil58vl.jpeg"
-    },
-    {
-      id: 2,
-      name : "prada bag",
-      src : "https://i.imgur.com/MeZMP3L.jpeg"
-    },
-    {
-      id: 3,
-      name : "bungus hat",
-      src : "https://i.imgur.com/B3zyYFhb.jpg"
-    },
-    {
-      id: 4,
-      name : "raybands shirt",
-      src : "https://i.imgur.com/nAodgwUb.jpg"
-    },
+    
   ];
 
 
